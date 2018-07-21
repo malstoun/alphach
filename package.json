@@ -1,0 +1,25 @@
+{
+  "name": "alphach",
+  "version": "0.0.1",
+  "description": "Package helps add and modify alpha channel in rgb(a) strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malstoun/alphach.git"
+  },
+  "keywords": [
+    "color"
+  ],
+  "author": "Andrey Ratserov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malstoun/alphach/issues"
+  },
+  "homepage": "https://github.com/malstoun/alphach#readme",
+  "devDependencies": {
+    "jest": "^23.4.1"
+  }
+}
