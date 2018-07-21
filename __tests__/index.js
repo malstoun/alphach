@@ -6,7 +6,7 @@ describe('rgb(a) model', () => {
 	});
 
 	it('should add string alpha channel to rgba', () => {
-		expect(color('rgba(1, 2, 3, .6)', '.6')).toBe('rgba(1, 2, 3, .6)');
+		expect(color('rgba(1, 2, 3, .3)', '.6')).toBe('rgba(1, 2, 3, .6)');
 	});
 
 	it('should add numbered alpha channel to rgb', () => {
