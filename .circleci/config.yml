@@ -26,7 +26,6 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: yarn global add codecov
       - run: yarn install
 
       - save_cache:
@@ -36,4 +35,4 @@ jobs:
         
       # run tests!
       - run: yarn test
-      - run: codecov
+
